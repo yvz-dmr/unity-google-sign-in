@@ -16,30 +16,6 @@ You can install this plugin via Git URL using Unity Package Manager.
 https://github.com/yvz-dmr/unity-google-sign-in.git
 ```
 
-### By [pckgs.io](https://pckgs.io)
-
-Add the following **scoped registry** to your project's `Packages/manifest.json` file:
-
-```json
-"scopedRegistries" : [
-  {
-    "name": "pckgs.io",
-    "url": "https://registry.pckgs.io/upm",
-    "scopes": [
-      "pckgs.io"
-    ]
-  }
-],
-```
-
-Then add the plugin dependency under the "dependencies" section:
-
-```json
-"dependencies" : {
-  "pckgs.io.com.vuzmir.google-signin": "1.0.0"
-}
-```
-
 ## Configuration
 
 1. In Unity, create a **GoogleSignInOptions** asset:
